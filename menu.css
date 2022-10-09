@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Edu+VIC+WA+NT+Beginner&family=Lato:wght@300&family=Pacifico&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(217, 233, 233);
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+}
+.section-center{
+    width: 100%;
+    margin: auto;
+    cursor: pointer; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    grid-row-gap: 50px;
+    margin: auto;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+}
+.underline{
+    background-color: chocolate;
+    height: 5px;
+    width: 100px;
+    margin: auto;
+    border-radius: 2px;
+}
+.filter-btns{
+    text-align: center;
+    margin-top: 30px;
+}
+button{
+    color: chocolate;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(217, 233, 233);
+    border: 1px solid chocolate;
+    margin: 0px 10px;
+    outline: none;
+    transition: all 0.1s ease;
+    letter-spacing: 2px;
+}
+button:hover{
+    background-color: chocolate;
+    color:  rgb(217, 233, 233);
+}
+.section-center{
+    margin-top: 60px;
+}
+
+img{
+    margin-left: 20px;
+    height: 150px;
+    width: 200px;
+    border: 5px solid chocolate;
+    border-radius: 10px;
+}
+article{
+    max-width: 600px;
+    display: flex;
+}
+.all-texts{
+    margin-left: 15px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    color: red;
+}
+h3{
+    letter-spacing: 3px;
+}
+
+@media(max-width: 1500px) and (min-width: 800px){
+    /* body{
+        background-color: red;
+    } */
+img{
+    height: 350px;
+    width: 500px;
+}
+.all-texts{
+    margin-top: 10px;
+}
+}
+@media (max-width: 799px) and (min-width: 500px){
+    img{
+        height: 350px;
+        width: 400px;
+    }
+}
+@media (max-width: 450px){
+    button{
+        padding: 3px 7px;
+    }
+    img{
+        height: 200px;
+        width: 260px;
+    }
+}
