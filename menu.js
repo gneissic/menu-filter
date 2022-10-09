@@ -79,15 +79,6 @@ let menu = [
         img: "red-velvet.jpg",
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt est labore voluptas error adipisci et autem consequuntur amet blanditiis asperiores!'
 
-    },
-    {
-        id: 10,
-        title: "hot dog",
-        category: "dinner",
-        price: "$3.99",
-        img: "https://images.unsplash.com/photo-1613482084286-41f25b486fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdCUyMGRvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt est labore voluptas error adipisci et autem consequuntur amet blanditiis asperiores!'
-
     }
 ]
 
