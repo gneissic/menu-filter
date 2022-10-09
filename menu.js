@@ -88,16 +88,7 @@ let menu = [
         img: "https://images.unsplash.com/photo-1613482084286-41f25b486fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdCUyMGRvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt est labore voluptas error adipisci et autem consequuntur amet blanditiis asperiores!'
 
-    },
-    {
-        id: 11,
-        title: "creals",
-        category: "dinner",
-        price: "$7.99",
-        img: "https://media.istockphoto.com/photos/colorful-corn-rings-in-bowl-isolated-on-white-background-picture-id1290306471?b=1&k=20&m=1290306471&s=170667a&w=0&h=4av7smPQ7pdm2C7rZWJLEDrld7g7FN0uCSj1cPyQpas=",
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt est labore voluptas error adipisci et autem consequuntur amet blanditiis asperiores!'
-
-    },
+    }
 ]
 
 const sectionCenter = document.querySelector('.section-center');
